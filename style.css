@@ -26,35 +26,35 @@ body {
 
 .img-container {
 	position: relative;
-	width: 100%;
+	cursor: pointer;
 }
 
-.equal-img {
+.hero-img {
 	width: 100%;
-	border-radius: 10px;
 	position: relative;
+	border-radius: 10px;
 }
 
 .overlay {
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	background-color: hsla(178, 100%, 50%, 0.51);
+	height: 282px;
 	border-radius: 10px;
-	background-color: rgba(0, 255, 247, 0.492);
+	top: 0;
+	right: 0;
+	left: 0;
 	opacity: 0;
-	transition: all 0.2s;
+	transition: all 0.3s;
 }
 
 .img-container .overlay:hover {
 	opacity: 1;
 }
 
-.view-icon {
-	height: 45px;
+.eye-icon {
 	position: absolute;
-	left: 42%;
+	height: 45px;
+	right: 42%;
 	top: 42%;
 }
 

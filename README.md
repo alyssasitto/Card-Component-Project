@@ -18,7 +18,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](images/equilibrium-screenshot.png)
+![](images/card-component-screenshot.png)
 
 ### Links
 
